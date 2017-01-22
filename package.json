@@ -15,7 +15,7 @@
     "tool"
   ],
   "author": "Ronnie Pyne",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^3.4.7",
     "dotenv": "^4.0.0",
