@@ -2,7 +2,7 @@
 
 This is a simple nodejs app to meet the business requirements of a coding task (outlined here - http://pastebin.com/VaFSi656). Please note that the following readme is written for linux and, at a stretch, OSX... Windows users, I'm sure you're used to extrapolating.
 
-## Dependancies
+## Dependencies
 
 * Node.js 6.x+. Developed with Node.js v6.6.0, has been tested as low as v6.0.0.
 * MySQL. Just about anything... let's say MySQL 5+. Developed with MySQL 5.7.
