@@ -16,7 +16,7 @@ This is a simple nodejs app to meet the business requirements of a coding task (
 ## Installation
 
 * Step 1 - Clone this repository to a directory
-> git clone https://github.com/perverse/mongo2mysqltask.git /path/to/directory
+> git clone https://github.com/perverse/mysql2mongotask.git /path/to/directory
 
 * Step 2 - Navigate to directory and run npm install
 > cd /path/to/directory && npm install
