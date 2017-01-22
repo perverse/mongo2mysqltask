@@ -1,0 +1,23 @@
+{
+  "name": "mysql-to-mongo",
+  "version": "1.0.0",
+  "description": "Simple mysql to MongoDB collection converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js --db examplemysqldb --collectiontable orders --targetdb examplemongodb"
+  },
+  "keywords": [
+    "mysql",
+    "mongo",
+    "converter",
+    "collection",
+    "creator",
+    "tool"
+  ],
+  "author": "Ronnie Pyne",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.21",
+    "mysql": "^2.12.0"
+  }
+}
