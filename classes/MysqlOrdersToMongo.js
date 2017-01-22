@@ -61,7 +61,7 @@ class MysqlOrdersToMongo {
      * Migrate mysql records to mongodb collection
      * @return {Promise} Promise resolves if migration process is successful, is rejected along the way if there is an error in the process.
      */
-    migrate(argv) {
+    migrate() {
         let customers;
         let _self = this;
 
