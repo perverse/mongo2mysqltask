@@ -44,7 +44,7 @@ databases.push(mongo.connect(mongoConnectStr, { promiseLibrary: Promise }));
 Promise.all(databases).spread((mysqlConnection, mongoConnection) => {
     // got both databases, bootstrap our object and migrate away
 
-    let m2m = new MysqlOrdersToMongo({ mysql: mysqlConnection, mongo: mongoConnection });
+    let m2m = new MysqlOrdersToMongo({ mysql: mysqlConnection, mongo: mongoConnection, collection: dotenv['MONGO_DB_COLLECTION'] });
 
     // migrate!
     m2m.migrate().then((ordersInserted) => {

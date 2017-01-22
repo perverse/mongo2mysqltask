@@ -10,7 +10,7 @@ class MysqlOrdersToMongo {
         // attach our dbs
         this.mysql = opts.mysql;
         this.mongo = opts.mongo;
-        this.targetCollection = opts['MONGO_DB_COLLECTION'] || 'orders';
+        this.targetCollection = opts.collection || 'orders';
     }
 
     /**
