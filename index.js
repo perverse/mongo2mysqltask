@@ -1,7 +1,6 @@
 "use strict"
 
 const dotenv = require('dotenv').config().parsed;
-const argv = require('optimist').argv;
 const Promise = require('bluebird');
 const mongo = require('mongodb').MongoClient;
 const mysql = require('mysql2/promise');
